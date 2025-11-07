@@ -1,0 +1,18 @@
+.cuadros{
+ height: 20px;
+background-color: blueviolet;
+width: 30px;
+border: 50px;
+display: inline-block;
+}
+
+
+
+
+.grid{
+
+display: grid;
+grid-template-columns: 200px 60px 40px;
+grid-template-rows: 200px 499px 80px;
+
+}
