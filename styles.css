@@ -1,18 +1,22 @@
-.cuadros{
- height: 20px;
-background-color: blueviolet;
-width: 30px;
-border: 50px;
-display: inline-block;
+body {
+    margin: 0;
+    font-family: sans-serif;
 }
 
+.grid {
 
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 300px 300px 300px;
 
+}
 
-.grid{
-
-display: grid;
-grid-template-columns: 200px 60px 40px;
-grid-template-rows: 200px 499px 80px;
-
+.cuadros {
+    background-color: rgb(197, 153, 239);
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(255, 244, 244);
+    width: 35%;
+    display: inline-block;
 }
