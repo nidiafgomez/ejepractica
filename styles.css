@@ -7,7 +7,7 @@ body {
 
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
 
 }
 
@@ -17,6 +17,6 @@ body {
     padding: 10px;
     font-size: 30px;
     color: rgb(255, 244, 244);
-    width: 35%;
-    display: inline-block;
+    width: 45%;
+    
 }
